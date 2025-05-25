@@ -1,0 +1,68 @@
+    return HttpResponse(output)
+n
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+.env
+
+# Virtual environment
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.ENV/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# JetBrains IDEs (e.g., PyCharm)
+.idea/
+
+# Migrations (optional: keep if you want to share migrations)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Node (if using with frontend tools)
+node_modules/
+package-lock.json
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
